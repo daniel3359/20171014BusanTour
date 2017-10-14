@@ -12,6 +12,10 @@
 		7434BBFF1F8EFB2D00F288B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7434BBFD1F8EFB2D00F288B3 /* Main.storyboard */; };
 		7434BC011F8EFB2D00F288B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7434BC001F8EFB2D00F288B3 /* Assets.xcassets */; };
 		7434BC041F8EFB2D00F288B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7434BC021F8EFB2D00F288B3 /* LaunchScreen.storyboard */; };
+		7434BC0D1F8EFB3700F288B3 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7434BC0C1F8EFB3700F288B3 /* MapKit.framework */; };
+		7434BC0F1F8EFBA300F288B3 /* infolist.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7434BC0E1F8EFBA300F288B3 /* infolist.plist */; };
+		7434BC131F8F05DC00F288B3 /* Detail2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7434BC121F8F05DC00F288B3 /* Detail2.swift */; };
+		7434BC151F8F068900F288B3 /* FullInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7434BC141F8F068900F288B3 /* FullInfo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		7434BC001F8EFB2D00F288B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7434BC031F8EFB2D00F288B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7434BC051F8EFB2D00F288B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7434BC0C1F8EFB3700F288B3 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		7434BC0E1F8EFBA300F288B3 /* infolist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = infolist.plist; sourceTree = "<group>"; };
+		7434BC121F8F05DC00F288B3 /* Detail2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Detail2.swift; sourceTree = "<group>"; };
+		7434BC141F8F068900F288B3 /* FullInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FullInfo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7434BC0D1F8EFB3700F288B3 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +49,7 @@
 			children = (
 				7434BBF81F8EFB2D00F288B3 /* 201312435BusanMapTour */,
 				7434BBF71F8EFB2D00F288B3 /* Products */,
+				7434BC0B1F8EFB3700F288B3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,11 +67,22 @@
 				7434BBF91F8EFB2D00F288B3 /* AppDelegate.swift */,
 				7434BBFB1F8EFB2D00F288B3 /* ViewController.swift */,
 				7434BBFD1F8EFB2D00F288B3 /* Main.storyboard */,
+				7434BC121F8F05DC00F288B3 /* Detail2.swift */,
+				7434BC141F8F068900F288B3 /* FullInfo.swift */,
 				7434BC001F8EFB2D00F288B3 /* Assets.xcassets */,
 				7434BC021F8EFB2D00F288B3 /* LaunchScreen.storyboard */,
 				7434BC051F8EFB2D00F288B3 /* Info.plist */,
+				7434BC0E1F8EFBA300F288B3 /* infolist.plist */,
 			);
 			path = 201312435BusanMapTour;
+			sourceTree = "<group>";
+		};
+		7434BC0B1F8EFB3700F288B3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7434BC0C1F8EFB3700F288B3 /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7434BC041F8EFB2D00F288B3 /* LaunchScreen.storyboard in Resources */,
+				7434BC0F1F8EFBA300F288B3 /* infolist.plist in Resources */,
 				7434BC011F8EFB2D00F288B3 /* Assets.xcassets in Resources */,
 				7434BBFF1F8EFB2D00F288B3 /* Main.storyboard in Resources */,
 			);
@@ -136,6 +158,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7434BC151F8F068900F288B3 /* FullInfo.swift in Sources */,
+				7434BC131F8F05DC00F288B3 /* Detail2.swift in Sources */,
 				7434BBFC1F8EFB2D00F288B3 /* ViewController.swift in Sources */,
 				7434BBFA1F8EFB2D00F288B3 /* AppDelegate.swift in Sources */,
 			);
@@ -261,6 +285,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = 201312435BusanMapTour/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "lyw.ac.kr.-01312435BusanMapTour";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -273,6 +298,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = 201312435BusanMapTour/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "lyw.ac.kr.-01312435BusanMapTour";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -299,6 +325,7 @@
 				7434BC0A1F8EFB2D00F288B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
